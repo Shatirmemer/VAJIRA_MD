@@ -8,10 +8,8 @@ function convertToBool(text, fault = 'true') {
 module.exports = {
 SESSION_ID: process.env.SESSION_ID === undefined ? 'VAJIRA-MD=XQMT2aTS#oKSwM-4cIGpJX_gcTJFuQDQU-sbe0dHdrxf9cHYHeik' : process.env.SESSION_ID,
 OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '923006838210' : process.env.OWNER_NUMBER,
-AUTO_STATUS_VIEW: process.env.AUTO_STATUS_VIEW || "true",
 N_JID: process.env.N_JID=== undefined ? '‌': process.env.N_JID,    
 AUTO_REACT: process.env.AUTO_REACT || "true",
-antidelete: process.env.antidelete || "true",
 PREFIX: process.env.PREFIX || '.' ,
 FOOTER: process.env.FOOTER=== undefined ? '‌VAJIRA-MD': process.env.FOOTER,
 POSTGRESQL_URL: process.env.POSTGRESQL_URL === undefined ? 'postgres://vajiratech_user:oSIFl2xmSojMZ0rkzdd0g0W6msuVTpNN@dpg-cpd7fjv109ks73e5gtig-a.frankfurt-postgres.render.com/vajiratech' : process.env.POSTGRESQL_URL,   
